@@ -5,3 +5,19 @@
 	  clear: both;
 	}
 }
+
+@mixin large {
+	@media (max-width: 1600px) { @content; }
+}
+
+@mixin medium {
+	@media (max-width: 1250px) { @content; }
+}
+
+@mixin small {
+	@media (max-width: 600px)  { @content; }
+}
+
+@mixin x-small {
+	@media (max-width: 300px)  { @content; }
+}
