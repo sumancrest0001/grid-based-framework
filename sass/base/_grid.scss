@@ -2,7 +2,6 @@
 .row {
 	max-width: $grid-width;
 	margin: 0 auto;
-	background-color: #ddd;
 
 	&:not(:last-child) {
 	  margin-bottom: $gutter-vertical;
@@ -11,7 +10,6 @@
     @include clearfix;
 
     [class^= "col-"] {
-      background-color: pink;
 	  float: left;
 
 	  &:not(:last-child) {
@@ -62,12 +60,8 @@
 	.col-11-of-12 {
      width: calc(11 * ((100% - 11 * #{$gutter-horizontal}) / 12) + 10 * #{$gutter-horizontal});
 	}
-	
+
 	.col-12-of-12 {
       width: 100%;
 	}
 }
-
-
-
-

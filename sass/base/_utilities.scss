@@ -1,6 +1,7 @@
 button {
   padding: 0.625em 1.250em;
   border: 0.063em solid #000;
+  border-radius: 0.25em;
 }
 
 card {
@@ -109,4 +110,3 @@ card {
 .warning-darker {
 	color: $warning 100%;
 }
-
