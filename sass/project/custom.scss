@@ -9,3 +9,15 @@ body {
       margin-right: 30px;
   }
 }
+
+nav li a {
+	font-size: 1.25rem;
+	line-height:1.25rem;
+	color: #fff;
+}
+
+.left-part {
+	@include phone {
+      width:100%;
+    }
+}

@@ -12,101 +12,105 @@ card {
 
 // colors
 .primary-lighter {
-	color: $primary 20%;
+	background: lighten($primary, 40%);
 }
 
 .primary-light {
-	color: $primary 40%;
+	background: lighten($primary, 20%);
 }
 
 .primary {
-	color: $primary 60%;
+	color: $primary;
 }
 
 .primary-dark {
-	color: $primary 80%;
+	background: darken($primary, 20%);
 }
 
 .primary-darker {
-	color: $primary 100%;
+	background: darken($primary, 40%);
 }
 
 .secondary-lighter {
-	color: $primary 20%;
+	background: lighten($secondary, 40%);
 }
 
 .secondary-light {
-	color: $primary 40%;
+	background: lighten($secondary, 20%);
 }
 
 .secondary {
-	color: $primary 60%;
+	color: $secondary;
 }
 
 .secondary-dark {
-	color: $primary 80%;
+	background: darken($secondary, 20%);
 }
 
 .secondary-darker {
-	color: $primary 100%;
+	background: darken($secondary, 40%);
 }
 
 .success-lighter {
-	color: $success 20%;
+	background: lighten($success, 40%);
 }
 
 .success-light {
-	color: $success 40%;
+	background: lighten($success, 20%);
 }
 
 .success {
-	color: $success 60%;
+	color: $success;
 }
 
 .success-dark {
-	color: $success 80%;
+	background: darken($success, 20%);
 }
 
 .success-darker {
-	color: $success 100%;
+	background: darken($success, 40%);
 }
 
 .danger-lighter {
-	color: $danger 20%;
+	background: lighten($danger, 40%);
 }
 
 .danger-light {
-	color: $danger 40%;
+	background: lighten($danger, 20%);
 }
 
 .danger {
-	color: $danger 60%;
+	color: $danger;
 }
 
 .danger-dark {
-	color: $danger 80%;
+	background: darken($danger, 20%);
 }
 
 .danger-darker {
-	color: $danger 100%;
+	background: darken($danger, 40%);
 }
 
 .warning-lighter {
-	color: $warning 20%;
+	background: lighten($warning, 40%);
 }
 
 .warning-light {
-	color: $warning 40%;
+	background: lighten($warning, 20%);
 }
 
 .warning {
-	color: $warning 60%;
+	color: $warning;
 }
 
 .warning-dark {
-	color: $warning 80%;
+	background: darken($warning, 20%);
 }
 
 .warning-darker {
-	color: $warning 100%;
+	background: darken($warning, 40%);
 }
+
+
+
+
