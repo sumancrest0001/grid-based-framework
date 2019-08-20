@@ -8,3 +8,105 @@ card {
   padding: 0.625em;
   box-shadow: 0.313em 0.625em #ccc;
 }
+
+// colors
+.primary-lighter {
+	color: $primary 20%;
+}
+
+.primary-light {
+	color: $primary 40%;
+}
+
+.primary {
+	color: $primary 60%;
+}
+
+.primary-dark {
+	color: $primary 80%;
+}
+
+.primary-darker {
+	color: $primary 100%;
+}
+
+.secondary-lighter {
+	color: $primary 20%;
+}
+
+.secondary-light {
+	color: $primary 40%;
+}
+
+.secondary {
+	color: $primary 60%;
+}
+
+.secondary-dark {
+	color: $primary 80%;
+}
+
+.secondary-darker {
+	color: $primary 100%;
+}
+
+.success-lighter {
+	color: $success 20%;
+}
+
+.success-light {
+	color: $success 40%;
+}
+
+.success {
+	color: $success 60%;
+}
+
+.success-dark {
+	color: $success 80%;
+}
+
+.success-darker {
+	color: $success 100%;
+}
+
+.danger-lighter {
+	color: $danger 20%;
+}
+
+.danger-light {
+	color: $danger 40%;
+}
+
+.danger {
+	color: $danger 60%;
+}
+
+.danger-dark {
+	color: $danger 80%;
+}
+
+.danger-darker {
+	color: $danger 100%;
+}
+
+.warning-lighter {
+	color: $warning 20%;
+}
+
+.warning-light {
+	color: $warning 40%;
+}
+
+.warning {
+	color: $warning 60%;
+}
+
+.warning-dark {
+	color: $warning 80%;
+}
+
+.warning-darker {
+	color: $warning 100%;
+}
+
