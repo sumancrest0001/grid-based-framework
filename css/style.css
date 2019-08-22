@@ -95,6 +95,9 @@ hr {
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 3rem; }
+    @media (max-width: 600px) {
+      .row:not(:last-child) {
+        margin-bottom: 2rem; } }
   .row::after {
     content: "";
     display: table;
@@ -103,6 +106,12 @@ hr {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 1.5rem; }
+      @media (max-width: 600px) {
+        .row [class^="col-"]:not(:last-child) {
+          margin-right: 0; } }
+    @media (max-width: 600px) {
+      .row [class^="col-"] {
+        width: 100% !important; } }
   .row .col-1-of-12 {
     width: calc((100% - 11 * 1.5rem) / 12); }
   .row .col-2-of-12 {
@@ -733,22 +742,46 @@ card {
   padding-bottom: 6rem;
   padding-top: 6rem; }
 
+html {
+  width: 100%; }
+  @media (max-width: 1200px) {
+    html {
+      font-size: 120%; } }
+  @media (max-width: 900px) {
+    html {
+      font-size: 90%; } }
+  @media (max-width: 600px) {
+    html {
+      font-size: 70%; } }
+
 footer ul li {
   display: inline;
   float: right; }
 
-@media screen and (max-width: 1920px) {
-  body {
-    margin-left: 30px;
-    margin-right: 30px; } }
+body {
+  margin-left: 30px;
+  margin-right: 30px; }
 
 nav li a {
   font-size: 1.25rem;
   line-height: 1.25rem;
   color: #fff; }
 
-@media screen and (max-width: 900px) {
-  .first-section {
-    display: inline-block; }
-    .first-section.left-part {
-      width: 100%; } }
+nav li a:hover {
+  color: #37C54B; }
+
+@media (max-width: 600px) {
+  .content-section p {
+    margin: 1rem 0; } }
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem; }
+
+.footer-section {
+  padding: 2rem;
+  backgound-color: #000; }
+  @media (max-width: 600px) {
+    .footer-section {
+      padding: 3rem;
+      background-color: #4893EF; } }

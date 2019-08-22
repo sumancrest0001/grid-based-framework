@@ -5,6 +5,10 @@
 
 	&:not(:last-child) {
 	  margin-bottom: $gutter-vertical;
+
+	  @include respond(phone){
+    	  margin-bottom: $gutter-vertical-smaller;
+        }
 	}
 
     @include clearfix;
@@ -14,6 +18,14 @@
 
 	  &:not(:last-child) {
 	    margin-right: $gutter-horizontal;
+
+	    @include respond(phone){
+    	  margin-right: 0;
+        }
+      }
+
+      @include respond(phone){
+    	width: 100% !important;
       }
     }
 
