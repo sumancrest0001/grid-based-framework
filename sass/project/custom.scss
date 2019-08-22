@@ -1,13 +1,27 @@
+
+html{
+  width:100%;
+
+  @include respond(desktop){
+    font-size: 120%;
+  }
+
+  @include respond(tab-port){
+    font-size: 90%;
+  }
+
+  @include respond(phone){
+    font-size: 70%;
+  }
+}
 footer ul li {
   display: inline;
   float: right;
 }
 
 body {
-  @include mQ(1920px) {
-      margin-left: 30px;
-      margin-right: 30px;
-  }
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 nav li a {
@@ -15,9 +29,27 @@ nav li a {
 	line-height:1.25rem;
 	color: #fff;
 }
+nav li a:hover {
+  color:$success;
+}
 
-.left-part {
-	@include phone {
-      width:100%;
-    }
+.content-section p{
+   @include respond(phone){
+        margin: 1rem 0;
+        }
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.footer-section {
+  padding: 2rem;
+  backgound-color: #000;
+
+  @include respond(phone){
+    padding: 3rem;
+    background-color: $secondary;
+  }
 }

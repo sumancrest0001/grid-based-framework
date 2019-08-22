@@ -6,24 +6,17 @@
 	}
 }
 
-@mixin mQ($arg...) {
-    @if length($arg) == 1 {
-        @media screen and (max-width: nth($arg, 1)) {
-            @content;
-        }
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+      @media (max-width:600px) { @content };
     }
 
-    @if length($arg) == 3 {
-        @media screen and (max-width: nth($arg, 1)) and (min-width: nth($arg, 2)) {
-            @content;
-        }
+    @if $breakpoint == tab-port {
+      @media (max-width:900px) { @content };
     }
 
-}
-
-@mixin phone {
-    @media only screen and (max-width:600px){
-    @content;
+    @if $breakpoint == desktop {
+      @media (max-width:1200px) { @content };
     }
 }
 
