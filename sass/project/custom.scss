@@ -1,19 +1,19 @@
-
 html{
   width:100%;
 
   @include respond(desktop){
-    font-size: 120%;
+    font-size: 100%;
   }
 
   @include respond(tab-port){
-    font-size: 90%;
+    font-size: 80%;
   }
 
   @include respond(phone){
     font-size: 70%;
   }
 }
+
 footer ul li {
   display: inline;
   float: right;
@@ -25,7 +25,7 @@ body {
 }
 
 nav li a {
-	font-size: 1.25rem;
+	font-size: 1.1rem;
 	line-height:1.25rem;
 	color: #fff;
 }
@@ -34,9 +34,15 @@ nav li a:hover {
 }
 
 .content-section p{
-   @include respond(phone){
+   @include respond(tab-port) {
         margin: 1rem 0;
-        }
+    }
+}
+
+.content-section p{
+   @include respond(phone) {
+        margin: 1rem 0;
+    }
 }
 
 p {
@@ -44,9 +50,67 @@ p {
   line-height: 1.5rem;
 }
 
+.right-part img {
+   @include respond(tab-port) {
+        width: 100%;
+    }
+}
+
+.right-part img {
+  @include respond(phone){
+       width: 100%;
+   }
+}
+
+.primary-lighter ul {
+    padding-left: 0.625em;
+}
+
+.primary-lighter {
+   @include respond(tab-port) {
+       width: 100%;
+       padding: 0 0.625em;
+    }
+}
+
+.primary-lighter {
+  @include respond(phone){
+       width: 100%;
+       padding: 0 0.625em;
+   }
+}
+
+small {
+   @include respond(tab-port) {
+       color: #fff;
+    }
+}
+
+small {
+  @include respond(phone){
+      color: #fff;
+   }
+}
+
+.primary-lighter ul {
+  @include respond(tab-port){
+    padding-left: 0.625em;
+  }
+}
+
+.footer-section small {
+  padding-left: 1em;
+  color: #000;
+}
+
 .footer-section {
-  padding: 2rem;
-  backgound-color: #000;
+  padding: 2rem 0;
+  background: #ccc;
+
+  @include respond(tab-port){
+    padding: 3rem;
+    background-color: $secondary;
+  }
 
   @include respond(phone){
     padding: 3rem;
