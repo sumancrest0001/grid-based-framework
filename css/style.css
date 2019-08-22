@@ -747,6 +747,8 @@ nav li a {
   line-height: 1.25rem;
   color: #fff; }
 
-@media only screen and (max-width: 600px) {
-  .left-part {
-    width: 100%; } }
+@media screen and (max-width: 900px) {
+  .first-section {
+    display: inline-block; }
+    .first-section.left-part {
+      width: 100%; } }

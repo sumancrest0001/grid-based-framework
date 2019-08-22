@@ -16,8 +16,11 @@ nav li a {
 	color: #fff;
 }
 
-.left-part {
-	@include phone {
-      width:100%;
+.first-section {
+  @include mQ(900px) {
+    display: inline-block;
+    &.left-part {
+      width: 100%;
     }
+  }
 }
