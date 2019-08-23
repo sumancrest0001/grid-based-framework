@@ -95,7 +95,7 @@ hr {
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 3rem; }
-    @media (max-width: 600px) {
+    @media (max-width: 720px) {
       .row:not(:last-child) {
         margin-bottom: 2rem; } }
   .row::after {
@@ -106,10 +106,10 @@ hr {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 1.5rem; }
-      @media (max-width: 600px) {
+      @media (max-width: 720px) {
         .row [class^="col-"]:not(:last-child) {
           margin-right: 0; } }
-    @media (max-width: 600px) {
+    @media (max-width: 720px) {
       .row [class^="col-"] {
         width: 100% !important; } }
   .row .col-1-of-12 {
@@ -744,13 +744,13 @@ card {
 
 html {
   width: 100%; }
-  @media (max-width: 1200px) {
+  @media (min-width: 1024px) {
     html {
       font-size: 100%; } }
-  @media (max-width: 900px) {
+  @media (min-width: 721px) and (max-width: 1023px) {
     html {
       font-size: 80%; } }
-  @media (max-width: 600px) {
+  @media (max-width: 720px) {
     html {
       font-size: 70%; } }
 
@@ -770,11 +770,11 @@ nav li a {
 nav li a:hover {
   color: #37C54B; }
 
-@media (max-width: 900px) {
+@media (min-width: 721px) and (max-width: 1023px) {
   .content-section p {
     margin: 1rem 0; } }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .content-section p {
     margin: 1rem 0; } }
 
@@ -782,36 +782,36 @@ p {
   font-size: 1rem;
   line-height: 1.5rem; }
 
-@media (max-width: 900px) {
+@media (min-width: 721px) and (max-width: 1023px) {
   .right-part img {
     width: 100%; } }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .right-part img {
     width: 100%; } }
 
 .primary-lighter ul {
   padding-left: 0.625em; }
 
-@media (max-width: 900px) {
+@media (min-width: 721px) and (max-width: 1023px) {
   .primary-lighter {
     width: 100%;
     padding: 0 0.625em; } }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .primary-lighter {
     width: 100%;
     padding: 0 0.625em; } }
 
-@media (max-width: 900px) {
+@media (min-width: 721px) and (max-width: 1023px) {
   small {
     color: #fff; } }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   small {
     color: #fff; } }
 
-@media (max-width: 900px) {
+@media (min-width: 721px) and (max-width: 1023px) {
   .primary-lighter ul {
     padding-left: 0.625em; } }
 
@@ -822,11 +822,11 @@ p {
 .footer-section {
   padding: 2rem 0;
   background: #ccc; }
-  @media (max-width: 900px) {
+  @media (min-width: 721px) and (max-width: 1023px) {
     .footer-section {
       padding: 3rem;
       background-color: #4893EF; } }
-  @media (max-width: 600px) {
+  @media (max-width: 720px) {
     .footer-section {
       padding: 3rem;
       background-color: #4893EF; } }
