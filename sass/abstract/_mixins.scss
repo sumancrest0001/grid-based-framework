@@ -7,13 +7,18 @@
 }
 
 @mixin respond($breakpoint) {
-    @if $breakpoint == phone {
-      @media (max-width:720px) { @content };
-    }
-    @if $breakpoint == tab-port {
-      @media (min-width:721px) and (max-width: 1023px) { @content };
-    }
-    @if $breakpoint == desktop {
-      @media (min-width:1024px) { @content };
-    }
+  @if $breakpoint == phone {
+    @media (max-width:720px) 
+      { @content };
+  }
+
+  @if $breakpoint == tab-port {
+    @media (min-width:721px) and (max-width: 1023px) 
+      { @content };
+  }
+
+  @if $breakpoint == desktop {
+    @media (min-width:1024px) 
+      { @content };
+  }
 }
