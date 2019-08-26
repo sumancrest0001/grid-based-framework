@@ -1,0 +1,112 @@
+button {
+  padding: 0.625em 1.250em;
+  border: 0.063em solid #000;
+  border-radius: 0.25em;
+}
+
+card {
+  border: 0.063em solid #ccc;
+  padding: 0.625em;
+  box-shadow: 0.313em 0.625em #ccc;
+}
+
+// colors
+.primary-lighter {
+  background: lighten($primary, 40%);
+}
+
+.primary-light {
+  background: lighten($primary, 20%);
+}
+
+.primary {
+  color: $primary;
+}
+
+.primary-dark {
+  background: darken($primary, 20%);
+}
+
+.primary-darker {
+  background: darken($primary, 40%);
+}
+
+.secondary-lighter {
+  background: lighten($secondary, 40%);
+}
+
+.secondary-light {
+  background: lighten($secondary, 20%);
+}
+
+.secondary {
+  color: $secondary;
+}
+
+.secondary-dark {
+  background: darken($secondary, 20%);
+}
+
+.secondary-darker {
+  background: darken($secondary, 40%);
+}
+
+.success-lighter {
+  background: lighten($success, 40%);
+}
+
+.success-light {
+  background: lighten($success, 20%);
+}
+
+.success {
+  color: $success;
+}
+
+.success-dark {
+  background: darken($success, 20%);
+}
+
+.success-darker {
+  background: darken($success, 40%);
+}
+
+.danger-lighter {
+  background: lighten($danger, 40%);
+}
+
+.danger-light {
+  background: lighten($danger, 20%);
+}
+
+.danger {
+  color: $danger;
+}
+
+.danger-dark {
+  background: darken($danger, 20%);
+}
+
+.danger-darker {
+  background: darken($danger, 40%);
+}
+
+.warning-lighter {
+  background: lighten($warning, 40%);
+}
+
+.warning-light {
+  background: lighten($warning, 20%);
+}
+
+.warning {
+  color: $warning;
+}
+
+.warning-dark {
+  background: darken($warning, 20%);
+}
+
+.warning-darker {
+  background: darken($warning, 40%);
+}

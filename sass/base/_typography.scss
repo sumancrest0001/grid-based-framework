@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap');
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  font-family: 'Roboto', sans-serif;
+  color: $heading-color;
+}
+
+h1 {
+  font-size: 34px;
+  line-height: 38px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: $paragraph-color;
+}
+
+small {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  line-height: 1em;
+  color: $small-color;
+}
+
+span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  line-height: 13px;
+  color: $span-color;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  color: $link-color;
+}
+
+em {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  line-height: 13px;
+  color: $italize-color;
+}
+
+strong {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  color: $bold-color;
+}

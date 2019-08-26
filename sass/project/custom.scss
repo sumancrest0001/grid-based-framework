@@ -1,0 +1,112 @@
+html{
+  width:100%;
+
+  @include respond(desktop){
+    font-size: 100%;
+  }
+
+  @include respond(tab-port){
+    font-size: 80%;
+  }
+
+  @include respond(phone){
+    font-size: 70%;
+  }
+}
+
+footer ul li {
+  display: inline;
+  float: right;
+}
+
+body {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+nav li a {
+	font-size: 1.1rem;
+	line-height:1.25rem;
+	color: #fff;
+
+  :hover {
+    color:$success;
+  }
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.content-section p {
+  @include respond(tab-port) {
+    margin: 1rem 0;
+  }
+
+  @include respond(phone) {
+    margin: 1rem 0;
+  }
+}
+
+.right-part img {
+  @include respond(tab-port) {
+    width: 100%;
+  }
+
+  @include respond(phone){
+    width: 100%;
+  }
+}
+
+.primary-lighter ul {
+  padding-left: 0.625em;
+}
+
+.primary-lighter {
+  @include respond(tab-port) {
+    width: 100%;
+    padding: 0 0.625em;
+  }
+
+  @include respond(phone){
+    width: 100%;
+    padding: 0 0.625em;
+   }
+
+  ul {
+    @include respond(tab-port){
+      padding-left: 0.625em;
+    }
+  }
+}
+
+small {
+  @include respond(tab-port) {
+    color: #fff;
+  }
+
+  @include respond(phone){
+    color: #fff;
+  }
+}
+
+.footer-section {
+  padding: 2rem 0;
+  background: #ccc;
+
+  @include respond(tab-port){
+    padding: 3rem;
+    background-color: $secondary;
+  }
+
+  @include respond(phone){
+    padding: 3rem;
+    background-color: $secondary;
+  }
+
+  small {
+    padding-left: 1em;
+    color: #000;
+  }
+}
